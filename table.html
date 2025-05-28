@@ -4,6 +4,20 @@
 <head>
     <title>creating tables</title>
 </head>
+<style>
+    table{
+        width: 70%;
+        border-collapse: collapse;
+    }
+    th,td{
+        padding: 10px;
+        text-align: left;
+        border-bottom: 3px solid #ddd;
+    }
+    tr:hover{
+        background-color: coral;
+    }
+</style>
 
 <body>
     <table border="2">
@@ -12,7 +26,7 @@
             <th>S.No</th>
             <th colspan="2">Name</th>
             <th>Age</th>
-            <th rowspan="2">Phone</th>
+            <!-- <th rowspan="2">Phone</th> -->
         </tr>
         <tr>
             <td>1</td>
